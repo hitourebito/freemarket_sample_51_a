@@ -41,18 +41,18 @@ Things you may want to cover:
 - has_many :products
 - has_many :orders
 - has_many :todo_lists
-- has_many :sales
+- has_many :sales　:dependent: :destroy
 - has_many :transfer_applications
-- has_many :points
-- has_many :contacts
+- has_many :points　:dependent: :destroy
+- has_many :contacts　
 - has_many :informations
 - has_many :notices
 - has_many :likes
 - has_many :comments
 - belongs_to :bank_account
-- belongs_to :adress
+- belongs_to :address
 
-## adressesテーブル
+## addressesテーブル
 |Column|Type|Options|
 |------|----|-------|
 |mail|string|null: false, unique: true|
@@ -86,9 +86,9 @@ Things you may want to cover:
 |sold|boolean|default: false,index: true|
 ​
 ### Association
-- has_many :likes
-- has_many :comments
-- has_many :product_images
+- has_many :likes　:dependent: :destroy
+- has_many :comments　:dependent: :destroy
+- has_many :product_images　:dependent: :destroy
 - belongs_to :brand
 - belongs_to :cateory
 - belongs_to :order
