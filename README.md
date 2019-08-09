@@ -31,15 +31,8 @@ Things you may want to cover:
 |first_kana_name|string|null: false|
 |last_kana_name|string|null: false|
 |nickname|string|null: false|
-|mail|string|null: false, unique: true|
 |password|integer|null: false|
 |profile|text|null: false|
-|tel|integer|
-|postal_code|integer|null: false|
-|region|string|null: false|
-|city|string|null: false|
-|street|string|null: false|
-|building|string|
 |payment_way|string|null: false|
 |birthday|string|
 |confirmation_document(本人確認書類)|text|
@@ -57,6 +50,21 @@ Things you may want to cover:
 - has_many :likes
 - has_many :comments
 - belongs_to :bank_account
+- belongs_to :adress
+
+## adressesテーブル
+|Column|Type|Options|
+|------|----|-------|
+|mail|string|null: false, unique: true|
+|tel|integer|
+|postal_code|integer|null: false|
+|region|string|null: false|
+|city|string|null: false|
+|street|string|null: false|
+|building|string|
+​
+### Association
+- belongs_to :user
 ​
 ​
 ## productsテーブル
