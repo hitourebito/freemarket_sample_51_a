@@ -49,8 +49,8 @@ Things you may want to cover:
 - has_many :notices
 - has_many :likes
 - has_many :comments
-- belongs_to :bank_account
-- belongs_to :address
+- has_one :bank_account
+- has_one :address
 
 ## addressesテーブル
 |Column|Type|Options|
@@ -72,6 +72,7 @@ Things you may want to cover:
 |------|----|-------|
 |name|string|null: false,index: true|
 |user_id|references|null: false, foreign_key: true|
+|order_id|references|null: false, foreign_key: true|
 |price|integer|null: false,index: true|
 |category_id|references|null: false, foreign_key: true,index: true|
 |brand_id|references|null: false, foreign_key: true,index: true|
@@ -311,6 +312,7 @@ Things you may want to cover:
 |point|integer|null: false|
 |reason|text|null: false|
 |user_id|references|null: false, foreign_key: true|
+|order_id|references|null: false, foreign_key: true|
 |dead_line|integer|null: false|
 ​
 ### Association
