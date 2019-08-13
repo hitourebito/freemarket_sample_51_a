@@ -1,0 +1,158 @@
+@mixin formFormat{
+  padding: 24px 32px;
+  .field{
+    width: 100%;
+    margin: 0;
+    margin: 24px 0 0;
+    input{
+      margin-top: 10px;
+      height: 48px;
+      box-sizing: border-box;        
+      padding: 10px 16px 8px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      background: #fff;
+      line-height: 1.5;
+      font-size: 16px;
+      width: 100%;    }
+  }
+  .field-first{
+    margin: 0;
+  }   
+  input[type="submit"]{
+    margin: 24px 0 0;
+    background: #ea352d;
+    border: 1px solid #ea352d;
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 48px;
+    font-size: 14px;
+    border: 1px solid transparent;
+    -webkit-transition: all ease-out .3s;
+    transition: all ease-out .3s;
+    cursor: pointer;
+    text-align: center;
+  }
+}
+
+@mixin btnFormat(){
+  display: block;
+  width: 100%;
+  line-height: 48px;
+  font-size: 14px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;  
+}
+
+@mixin facebookFormat{
+  background-color: #385185;
+  margin: 0;
+  color: #fff;
+  position: relative;
+  .fa-facebook-square{
+    font-size: 26px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 16px;
+  }
+}
+
+@mixin googleFormat{ 
+  background-color: #fff;
+  color: #333;
+  border: #979797 solid 1px;
+  margin: 16px 0 0;
+  position: relative;
+  .fa-google{
+    font-size: 26px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 16px;
+  }
+}
+
+@mixin mailFormat{
+  background-color: #ea352d;
+  color: #fff;
+  position: relative;
+  .fa-envelope{
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 16px;
+    background-color: #ea352d;     
+  }
+}
+@mixin signupFormat{
+  margin: 8px 0 0;
+  border: 1px solid #0099e8;
+  background: #0099e8;
+  color: #fff;
+  line-height: 40px;      
+}
+
+@mixin progressFormat{
+  padding: 40px 0 10px 44px;
+  border: 0;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0;
+  text-align: center;
+  &__status{
+    margin: 0;
+    li{
+      margin: 0 40px 0 0;
+      padding: 0;
+      position: relative;
+      z-index: 40;
+      display: inline-block;
+      min-width: 60px;
+      font-size: 12px;
+      color: #888;
+      .progress-bar__status__circle{
+        position: absolute;
+        left: 40%;
+        width: 12px;
+        height: 12px;
+        margin: 8px auto 0;
+        background: #ccc;
+        border-radius: 50%;
+        z-index: 30;
+      }
+      .progress-bar__status__line{
+        position: absolute;
+        left: 50%;
+        top: 30px;
+        bottom: 5px;
+        display: block;
+        width: 170%;
+        height: 2px;
+        background: #ccc;
+      }
+      .end {
+        width: 0px;
+      }           
+    }
+    li.complete{
+      color: #888;
+      .progress-bar__status__circle{
+        background: #ea352d;
+      }
+      .progress-bar__status__line {
+        background: #ea352d;
+      }  
+    }
+    li.active{
+      color: #ea352d;
+      .progress-bar__status__circle{
+        background: #ea352d;
+      }
+    } 
+  } 
+}
