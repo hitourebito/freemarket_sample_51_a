@@ -1,0 +1,46 @@
+!!!
+%html{lang: "ja"}
+  %head
+    %meta{charset: "utf-8"}
+  %body.signup-login
+    %header.signup-login__header
+      = render partial: 'header'
+      %nav.progress-bar
+        %ul.progress-bar__status
+          %li.complete
+            会員情報
+            .progress-bar__status__circle
+            .progress-bar__status__line
+          %li.active
+            電話番号認証
+            .progress-bar__status__circle
+            .progress-bar__status__line
+          %li
+            お届け先住所入力
+            .progress-bar__status__circle
+            .progress-bar__status__line
+          %li
+            支払い方法
+            .progress-bar__status__circle
+            .progress-bar__status__line
+          %li
+            完了
+            .progress-bar__status__circle
+            .progress-bar__status__line.end      
+    %main.signup-login__box
+      .signup-login__box__title
+        %h2 電話番号の確認
+      %form{class: "form-format"}
+        .form-format__content
+          .field.field-first
+            %label 携帯電話の番号
+            %input{placeholder: "携帯電話の番号を入力"}
+          %p.text 本人確認のため、携帯電話のSMS(ショートメッセージショートメッセージサービス)を利用して認証を行います。
+          .actions
+          %input{type: "submit", value: "SMSを送信する"}
+          %p.text 電話番号は本人確認や不正利用防止のために利用します。他のユーザーに公開されることはありません。
+          %p.text.text-right
+            =link_to "", class: "nodeco-blue" do
+              電話番号の確認が必要な理由>          
+    %footer.signup-login__footer
+      = render partial: 'footer'
