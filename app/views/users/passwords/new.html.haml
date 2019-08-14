@@ -1,10 +1,22 @@
-%h2 Forgot your password?
-= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f|
-  = render "devise/shared/error_messages", resource: resource
-  .field
-    = f.label :email
-    %br/
-    = f.email_field :email, autofocus: true, autocomplete: "email"
-  .actions
-    = f.submit "Send me reset password instructions"
-= render "users/shared/links"
+!!!
+%html{lang: "ja"}
+  %head
+    %meta{charset: "utf-8"}
+  %body.signup-login
+    %header.signup-login__header
+      = render partial: 'signup/header'
+    %main.signup-login__box
+      .signup-login__box__title
+        %h2 パスワードをお忘れの方
+      = form_for(resource, as: resource_name, url: password_path(resource_name), html: {class: "form-format", method: :post }) do |f|
+        = render "devise/shared/error_messages", resource: resource
+        .form-format__content
+          .field.field-first
+            = f.label :メールアドレス
+            = f.email_field :email, autofocus: true, autocomplete: "email", placeholder: "ご登録されたメールアドレス"
+          %p.gray ご登録されたメールアドレスにパスワード再設定のご案内が送信されます。
+          .field 私はロボットではありません。            
+          .actions
+            = f.submit "送信する"
+    %footer.signup-login__footer
+      = render partial: 'signup/footer'
