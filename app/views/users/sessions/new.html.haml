@@ -1,16 +1,31 @@
-= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
-  .field
-    = f.label :email
-    %br/
-    = f.email_field :email, autofocus: true, autocomplete: "email"
-  .field
-    = f.label :password
-    %br/
-    = f.password_field :password, autocomplete: "current-password"
-  - if devise_mapping.rememberable?
-    .field
-      = f.check_box :remember_me
-      = f.label :remember_me
-  .actions
-    = f.submit "Log in"
-= render "users/shared/links"
+!!!
+%html{lang: "ja"}
+  %head
+    %meta{charset: "utf-8"}
+  %body.signup-login
+    %header.signup-login__header
+      = render partial: 'signup/header'
+    %main.login
+      .signup
+        %p.text-center.margin-zero アカウントをお持ちでない方はこちら
+        - if devise_mapping.registerable? && controller_name != 'registrations'
+          = link_to "新規会員登録", signup_index_path, class: "btn signupbtn" 
+      .login__way
+        =link_to "", class: "facebook btn" do
+          = fa_icon 'facebook-square'
+          facebookで登録する
+        =link_to "", class: "google btn" do
+          = fa_icon 'google'
+          Googleで登録する
+      = form_for(resource, as: resource_name, url: session_path(resource_name), html: {class: "login-form"}) do |f|
+        .field.field-first
+          = f.email_field :email, autofocus: true, autocomplete: "email"
+        .field
+          = f.password_field :password, autocomplete: "current-password"
+        .field 私はロボットではありません。      
+        .actions
+          = f.submit "ログイン"
+        - if devise_mapping.recoverable? && controller_name != 'passwords' && controller_name != 'registrations'
+          = link_to "パスワードをお忘れの方", new_password_path(resource_name), class: "nodeco-blue"
+    %footer.signup-login__footer
+      = render partial: 'signup/footer'
