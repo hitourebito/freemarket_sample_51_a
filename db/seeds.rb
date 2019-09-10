@@ -213,6 +213,210 @@ products = [
   { id: 51, name: "supreme シュプリーム キャップ", price: 8200, category_id: 87, user_id: 14, brand_id: 4, size: "M", state: "未使用に近い", delivery_burden: 0, delivery_way: "未定", delivery_from: "大阪府", delivery_time: "1~2日で発送", detail: "box logo ボックスロゴ\nサイズ：FREE\nカラー ：ブラック\n試着程度美品\nシュプリーム店舗購入\n\nシャネル っぽい生地感でオシャレです。\n\n折りたたんで発送致しますのでご了承下さい。\n\n\n\nSUPREME CAP\nシュプリーム キャップ\nSUPREME キャップ\nSUPREME CAMP CAP\nSUPREME\nシュプリーム", likes_count: 9, sold: false, created_at: "", updated_at: "" }
 ]
 
+product_images = [
+  { id: 1, image: "m77835579238_1.jpg", product_id: 1 },
+  { id: 2, image: "m77835579238_2.jpg", product_id: 1 },
+  { id: 3, image: "m77835579238_3.jpg", product_id: 1 },
+  { id: 4, image: "m77835579238_4.jpg", product_id: 1 },
+  { id: 5, image: "m48540684348_1.jpg", product_id: 2 },
+  { id: 6, image: "m48540684348_2.jpg", product_id: 2 },
+  { id: 7, image: "m74476997832_1.jpg", product_id: 3 },
+  { id: 8, image: "m74476997832_2.jpg", product_id: 3 },
+  { id: 9, image: "m74476997832_3.jpg", product_id: 3 },
+  { id: 10, image: "m74476997832_4.jpg", product_id: 3 },
+  { id: 11, image: "m74476997832_5.jpg", product_id: 3 },
+  { id: 12, image: "m74476997832_6.jpg", product_id: 3 },
+  { id: 13, image: "m38754419631_1.jpg", product_id: 4 },
+  { id: 14, image: "m38754419631_2.jpg", product_id: 4 },
+  { id: 15, image: "m38754419631_3.jpg", product_id: 4 },
+  { id: 16, image: "m38754419631_4.jpg", product_id: 4 },
+  { id: 17, image: "m70052333373_1.jpg", product_id: 5 },
+  { id: 18, image: "m70052333373_2.jpg", product_id: 5 },
+  { id: 19, image: "m70052333373_3.jpg", product_id: 5 },
+  { id: 20, image: "m70052333373_4.jpg", product_id: 5 },
+  { id: 21, image: "m86539967411_1.jpg", product_id: 6 },
+  { id: 22, image: "m86539967411_2.jpg", product_id: 6 },
+  { id: 23, image: "m86539967411_3.jpg", product_id: 6 },
+  { id: 24, image: "m86539967411_4.jpg", product_id: 6 },
+  { id: 25, image: "m86539967411_5.jpg", product_id: 6 },
+  { id: 26, image: "m86539967411_6.jpg", product_id: 6 },
+  { id: 27, image: "m86539967411_7.jpg", product_id: 6 },
+  { id: 28, image: "m86539967411_8.jpg", product_id: 6 },
+  { id: 29, image: "m86539967411_9.jpg", product_id: 6 },
+  { id: 30, image: "m86539967411_10.jpg", product_id: 6 },
+  { id: 31, image: "m86070834778_1.jpg", product_id: 7 },
+  { id: 32, image: "m86070834778_2.jpg", product_id: 7 },
+  { id: 33, image: "m86070834778_3.jpg", product_id: 7 },
+  { id: 34, image: "m90314762525_1.jpg", product_id: 8 },
+  { id: 35, image: "m90314762525_2.jpg", product_id: 8 },
+  { id: 36, image: "m90314762525_3.jpg", product_id: 8 },
+  { id: 37, image: "m90314762525_4.jpg", product_id: 8 },
+  { id: 38, image: "m90314762525_5.jpg", product_id: 8 },
+  { id: 39, image: "m90314762525_6.jpg", product_id: 8 },
+  { id: 40, image: "m83639175163_1.jpg", product_id: 9 },
+  { id: 41, image: "m83639175163_2.jpg", product_id: 9 },
+  { id: 42, image: "m84250536699_1.jpg", product_id: 10 },
+  { id: 43, image: "m84250536699_2.jpg", product_id: 10 },
+  { id: 44, image: "m84250536699_3.jpg", product_id: 10 },
+  { id: 45, image: "m84250536699_4.jpg", product_id: 10 },
+  { id: 46, image: "m84250536699_5.jpg", product_id: 10 },
+  { id: 47, image: "m84250536699_6.jpg", product_id: 10 },
+  { id: 48, image: "m84250536699_7.jpg", product_id: 10 },
+  { id: 49, image: "m84250536699_8.jpg", product_id: 10 },
+  { id: 50, image: "m84250536699_9.jpg", product_id: 10 },
+  { id: 51, image: "m56741072879_1.jpg", product_id: 11 },
+  { id: 52, image: "m56741072879_2.jpg", product_id: 11 },
+  { id: 53, image: "m56741072879_3.jpg", product_id: 11 },
+  { id: 54, image: "m74341544093_1.jpg", product_id: 12 },
+  { id: 55, image: "m74341544093_2.jpg", product_id: 12 },
+  { id: 56, image: "m96779532804_1.jpg", product_id: 13 },
+  { id: 57, image: "m96779532804_2.jpg", product_id: 13 },
+  { id: 58, image: "m96779532804_3.jpg", product_id: 13 },
+  { id: 59, image: "m22546401495_1.jpg", product_id: 14 },
+  { id: 60, image: "m22546401495_2.jpg", product_id: 14 },
+  { id: 61, image: "m22546401495_3.jpg", product_id: 14 },
+  { id: 62, image: "m18941694191_1.jpg", product_id: 15 },
+  { id: 63, image: "m18941694191_2.jpg", product_id: 15 },
+  { id: 64, image: "m18941694191_3.jpg", product_id: 15 },
+  { id: 65, image: "m18941694191_4.jpg", product_id: 15 },
+  { id: 66, image: "m18941694191_5.jpg", product_id: 15 },
+  { id: 67, image: "m18941694191_6.jpg", product_id: 15 },
+  { id: 68, image: "m18941694191_7.jpg", product_id: 15 },
+  { id: 69, image: "m18941694191_8.jpg", product_id: 15 },
+  { id: 70, image: "m93198988449_1.jpg", product_id: 16 },
+  { id: 71, image: "m93198988449_2.jpg", product_id: 16 },
+  { id: 72, image: "m93198988449_3.jpg", product_id: 16 },
+  { id: 73, image: "m93198988449_4.jpg", product_id: 16 },
+  { id: 74, image: "m93198988449_5.jpg", product_id: 16 },
+  { id: 75, image: "m95495346146_1.jpg", product_id: 17 },
+  { id: 76, image: "m95495346146_2.jpg", product_id: 17 },
+  { id: 77, image: "m95495346146_3.jpg", product_id: 17 },
+  { id: 78, image: "m95495346146_4.jpg", product_id: 17 },
+  { id: 79, image: "m36257984183_1.jpg", product_id: 18 },
+  { id: 80, image: "m36257984183_2.jpg", product_id: 18 },
+  { id: 81, image: "m46826258005_1.jpg", product_id: 19 },
+  { id: 82, image: "m46826258005_2.jpg", product_id: 19 },
+  { id: 83, image: "m15719362871_1.jpg", product_id: 20 },
+  { id: 84, image: "m15719362871_2.jpg", product_id: 20 },
+  { id: 85, image: "m26997643019_1.jpg", product_id: 21 },
+  { id: 86, image: "m26997643019_2.jpg", product_id: 21 },
+  { id: 87, image: "m26997643019_3.jpg", product_id: 21 },
+  { id: 88, image: "m78959995570_1.jpg", product_id: 22 },
+  { id: 89, image: "m40973161719_1.jpg", product_id: 23 },
+  { id: 90, image: "m40973161719_2.jpg", product_id: 23 },
+  { id: 91, image: "m89848119985_1.jpg", product_id: 24 },
+  { id: 92, image: "m89848119985_2.jpg", product_id: 24 },
+  { id: 93, image: "m40729627971_1.jpg", product_id: 25 },
+  { id: 94, image: "m40729627971_2.jpg", product_id: 25 },
+  { id: 95, image: "m40729627971_3.jpg", product_id: 25 },
+  { id: 96, image: "m40729627971_4.jpg", product_id: 25 },
+  { id: 97, image: "m40729627971_5.jpg", product_id: 25 },
+  { id: 98, image: "m64603446576_1.jpg", product_id: 26 },
+  { id: 99, image: "m62174012776_1.jpg", product_id: 27 },
+  { id: 100, image: "m62174012776_2.jpg", product_id: 27 },
+  { id: 101, image: "m62174012776_3.jpg", product_id: 27 },
+  { id: 102, image: "m11461086645_1.jpg", product_id: 28 },
+  { id: 103, image: "m11461086645_2.jpg", product_id: 28 },
+  { id: 104, image: "m11461086645_3.jpg", product_id: 28 },
+  { id: 105, image: "m11461086645_4.jpg", product_id: 28 },
+  { id: 106, image: "m11461086645_5.jpg", product_id: 28 },
+  { id: 107, image: "m11461086645_6.jpg", product_id: 28 },
+  { id: 108, image: "m11461086645_7.jpg", product_id: 28 },
+  { id: 109, image: "m54329034086_1.jpg", product_id: 29 },
+  { id: 110, image: "m54329034086_2.jpg", product_id: 29 },
+  { id: 111, image: "m54329034086_3.jpg", product_id: 29 },
+  { id: 112, image: "m54329034086_4.jpg", product_id: 29 },
+  { id: 113, image: "m54329034086_5.jpg", product_id: 29 },
+  { id: 114, image: "m54329034086_6.jpg", product_id: 29 },
+  { id: 115, image: "m21134849957_1.jpg", product_id: 30 },
+  { id: 116, image: "m21134849957_2.jpg", product_id: 30 },
+  { id: 117, image: "m27845176701_1.jpg", product_id: 31 },
+  { id: 118, image: "m27845176701_2.jpg", product_id: 31 },
+  { id: 119, image: "m27845176701_3.jpg", product_id: 31 },
+  { id: 120, image: "m27845176701_4.jpg", product_id: 31 },
+  { id: 121, image: "m54603695384_1.jpg", product_id: 32 },
+  { id: 122, image: "m54603695384_2.jpg", product_id: 32 },
+  { id: 123, image: "m54603695384_3.jpg", product_id: 32 },
+  { id: 124, image: "m54603695384_4.jpg", product_id: 32 },
+  { id: 125, image: "m96211228387_1.jpg", product_id: 33 },
+  { id: 126, image: "m96211228387_2.jpg", product_id: 33 },
+  { id: 127, image: "m96211228387_3.jpg", product_id: 33 },
+  { id: 128, image: "m96211228387_4.jpg", product_id: 33 },
+  { id: 129, image: "m80781902854_1.jpg", product_id: 34 },
+  { id: 130, image: "m80781902854_2.jpg", product_id: 34 },
+  { id: 131, image: "m80781902854_3.jpg", product_id: 34 },
+  { id: 132, image: "m30061122149_1.jpg", product_id: 35 },
+  { id: 133, image: "m30061122149_2.jpg", product_id: 35 },
+  { id: 134, image: "m30061122149_3.jpg", product_id: 35 },
+  { id: 135, image: "m30061122149_4.jpg", product_id: 35 },
+  { id: 136, image: "m30061122149_5.jpg", product_id: 35 },
+  { id: 137, image: "m44094931510_1.jpg", product_id: 36 },
+  { id: 138, image: "m44094931510_2.jpg", product_id: 36 },
+  { id: 139, image: "m44094931510_3.jpg", product_id: 36 },
+  { id: 140, image: "m44094931510_4.jpg", product_id: 36 },
+  { id: 141, image: "m44094931510_5.jpg", product_id: 36 },
+  { id: 142, image: "m44094931510_6.jpg", product_id: 36 },
+  { id: 143, image: "m53336070655_1.jpg", product_id: 37 },
+  { id: 144, image: "m53336070655_2.jpg", product_id: 37 },
+  { id: 145, image: "m53336070655_3.jpg", product_id: 37 },
+  { id: 146, image: "m53336070655_4.jpg", product_id: 37 },
+  { id: 147, image: "m53336070655_5.jpg", product_id: 37 },
+  { id: 148, image: "m73179952709_1.jpg", product_id: 38 },
+  { id: 149, image: "m73179952709_2.jpg", product_id: 38 },
+  { id: 150, image: "m73179952709_3.jpg", product_id: 38 },
+  { id: 151, image: "m73179952709_4.jpg", product_id: 38 },
+  { id: 152, image: "m73179952709_5.jpg", product_id: 38 },
+  { id: 153, image: "m44538810302_1.jpg", product_id: 39 },
+  { id: 154, image: "m44538810302_2.jpg", product_id: 39 },
+  { id: 155, image: "m44538810302_3.jpg", product_id: 39 },
+  { id: 156, image: "m44538810302_4.jpg", product_id: 39 },
+  { id: 157, image: "m44538810302_5.jpg", product_id: 39 },
+  { id: 158, image: "m72089499277_1.jpg", product_id: 40 },
+  { id: 159, image: "m72089499277_2.jpg", product_id: 40 },
+  { id: 160, image: "m72089499277_3.jpg", product_id: 40 },
+  { id: 161, image: "m72089499277_4.jpg", product_id: 40 },
+  { id: 162, image: "m96412135297_1.jpg", product_id: 41 },
+  { id: 163, image: "m96412135297_2.jpg", product_id: 41 },
+  { id: 164, image: "m96412135297_3.jpg", product_id: 41 },
+  { id: 165, image: "m88951599020_1.jpg", product_id: 42 },
+  { id: 166, image: "m88951599020_2.jpg", product_id: 42 },
+  { id: 167, image: "m49193247029_1.jpg", product_id: 43 },
+  { id: 168, image: "m49193247029_2.jpg", product_id: 43 },
+  { id: 169, image: "m49193247029_3.jpg", product_id: 43 },
+  { id: 170, image: "m21197053232_1.jpg", product_id: 44 },
+  { id: 171, image: "m21197053232_2.jpg", product_id: 44 },
+  { id: 172, image: "m21197053232_3.jpg", product_id: 44 },
+  { id: 173, image: "m21197053232_4.jpg", product_id: 44 },
+  { id: 174, image: "m21197053232_5.jpg", product_id: 44 },
+  { id: 175, image: "m21197053232_6.jpg", product_id: 44 },
+  { id: 176, image: "m21197053232_7.jpg", product_id: 44 },
+  { id: 177, image: "m67438409679_1.jpg", product_id: 45 },
+  { id: 178, image: "m67438409679_2.jpg", product_id: 45 },
+  { id: 179, image: "m70474311122_1.jpg", product_id: 46 },
+  { id: 180, image: "m70474311122_2.jpg", product_id: 46 },
+  { id: 181, image: "m70474311122_3.jpg", product_id: 46 },
+  { id: 182, image: "m70474311122_4.jpg", product_id: 46 },
+  { id: 183, image: "m35270026622_1.jpg", product_id: 47 },
+  { id: 184, image: "m35270026622_2.jpg", product_id: 47 },
+  { id: 185, image: "m35270026622_3.jpg", product_id: 47 },
+  { id: 186, image: "m35270026622_4.jpg", product_id: 47 },
+  { id: 187, image: "m10618931963_1.jpg", product_id: 48 },
+  { id: 188, image: "m10618931963_2.jpg", product_id: 48 },
+  { id: 189, image: "m10618931963_3.jpg", product_id: 48 },
+  { id: 190, image: "m80691617324_1.jpg", product_id: 49 },
+  { id: 191, image: "m80691617324_2.jpg", product_id: 49 },
+  { id: 192, image: "m80691617324_3.jpg", product_id: 49 },
+  { id: 193, image: "m80691617324_4.jpg", product_id: 49 },
+  { id: 194, image: "m80691617324_5.jpg", product_id: 49 },
+  { id: 195, image: "m24255548152_1.jpg", product_id: 50 },
+  { id: 196, image: "m24255548152_2.jpg", product_id: 50 },
+  { id: 197, image: "m24255548152_3.jpg", product_id: 50 },
+  { id: 198, image: "m24255548152_4.jpg", product_id: 50 },
+  { id: 199, image: "m61709744138_1.jpg", product_id: 51 },
+  { id: 200, image: "m61709744138_2.jpg", product_id: 51 },
+  { id: 201, image: "m61709744138_3.jpg", product_id: 5 }
+]
+
 ActiveRecord::Base.transaction do
   categories.each do |category|
     Category.create!(category)
@@ -226,206 +430,7 @@ ActiveRecord::Base.transaction do
   products.each do |product|
     Product.create!(product)
   end
+  product_images.each do |product_image|
+    Product.create!(product_images)
+  end
 end
-
-  ProductImage.create(id: 1, image: open("#{Rails.root}/db/fixtures/m77835579238_1.jpg"), product_id: 1)
-  ProductImage.create(id: 2, image: open("#{Rails.root}/db/fixtures/m77835579238_2.jpg"), product_id: 1)
-  ProductImage.create(id: 3, image: open("#{Rails.root}/db/fixtures/m77835579238_3.jpg"), product_id: 1)
-  ProductImage.create(id: 4, image: open("#{Rails.root}/db/fixtures/m77835579238_4.jpg"), product_id: 1)
-  ProductImage.create(id: 5, image: open("#{Rails.root}/db/fixtures/m48540684348_1.jpg"), product_id: 2)
-  ProductImage.create(id: 6, image: open("#{Rails.root}/db/fixtures/m48540684348_2.jpg"), product_id: 2)
-  ProductImage.create(id: 7, image: open("#{Rails.root}/db/fixtures/m74476997832_1.jpg"), product_id: 3)
-  ProductImage.create(id: 8, image: open("#{Rails.root}/db/fixtures/m74476997832_2.jpg"), product_id: 3)
-  ProductImage.create(id: 9, image: open("#{Rails.root}/db/fixtures/m74476997832_3.jpg"), product_id: 3)
-  ProductImage.create(id: 10, image: open("#{Rails.root}/db/fixtures/m74476997832_4.jpg"), product_id: 3)
-  ProductImage.create(id: 11, image: open("#{Rails.root}/db/fixtures/m74476997832_5.jpg"), product_id: 3)
-  ProductImage.create(id: 12, image: open("#{Rails.root}/db/fixtures/m74476997832_6.jpg"), product_id: 3)
-  ProductImage.create(id: 13, image: open("#{Rails.root}/db/fixtures/m38754419631_1.jpg"), product_id: 4)
-  ProductImage.create(id: 14, image: open("#{Rails.root}/db/fixtures/m38754419631_2.jpg"), product_id: 4)
-  ProductImage.create(id: 15, image: open("#{Rails.root}/db/fixtures/m38754419631_3.jpg"), product_id: 4)
-  ProductImage.create(id: 16, image: open("#{Rails.root}/db/fixtures/m38754419631_4.jpg"), product_id: 4)
-  ProductImage.create(id: 17, image: open("#{Rails.root}/db/fixtures/m70052333373_1.jpg"), product_id: 5)
-  ProductImage.create(id: 18, image: open("#{Rails.root}/db/fixtures/m70052333373_2.jpg"), product_id: 5)
-  ProductImage.create(id: 19, image: open("#{Rails.root}/db/fixtures/m70052333373_3.jpg"), product_id: 5)
-  ProductImage.create(id: 20, image: open("#{Rails.root}/db/fixtures/m70052333373_4.jpg"), product_id: 5)
-  ProductImage.create(id: 21, image: open("#{Rails.root}/db/fixtures/m86539967411_1.jpg"), product_id: 6)
-  ProductImage.create(id: 22, image: open("#{Rails.root}/db/fixtures/m86539967411_2.jpg"), product_id: 6)
-  ProductImage.create(id: 23, image: open("#{Rails.root}/db/fixtures/m86539967411_3.jpg"), product_id: 6)
-  ProductImage.create(id: 24, image: open("#{Rails.root}/db/fixtures/m86539967411_4.jpg"), product_id: 6)
-  ProductImage.create(id: 25, image: open("#{Rails.root}/db/fixtures/m86539967411_5.jpg"), product_id: 6)
-  ProductImage.create(id: 26, image: open("#{Rails.root}/db/fixtures/m86539967411_6.jpg"), product_id: 6)
-  ProductImage.create(id: 27, image: open("#{Rails.root}/db/fixtures/m86539967411_7.jpg"), product_id: 6)
-  ProductImage.create(id: 28, image: open("#{Rails.root}/db/fixtures/m86539967411_8.jpg"), product_id: 6)
-  ProductImage.create(id: 29, image: open("#{Rails.root}/db/fixtures/m86539967411_9.jpg"), product_id: 6)
-  ProductImage.create(id: 30, image: open("#{Rails.root}/db/fixtures/m86539967411_10.jpg"), product_id: 6)
-  ProductImage.create(id: 31, image: open("#{Rails.root}/db/fixtures/m86070834778_1.jpg"), product_id: 7)
-  ProductImage.create(id: 32, image: open("#{Rails.root}/db/fixtures/m86070834778_2.jpg"), product_id: 7)
-  ProductImage.create(id: 33, image: open("#{Rails.root}/db/fixtures/m86070834778_3.jpg"), product_id: 7)
-  ProductImage.create(id: 34, image: open("#{Rails.root}/db/fixtures/m90314762525_1.jpg"), product_id: 8)
-  ProductImage.create(id: 35, image: open("#{Rails.root}/db/fixtures/m90314762525_2.jpg"), product_id: 8)
-  ProductImage.create(id: 36, image: open("#{Rails.root}/db/fixtures/m90314762525_3.jpg"), product_id: 8)
-  ProductImage.create(id: 37, image: open("#{Rails.root}/db/fixtures/m90314762525_4.jpg"), product_id: 8)
-  ProductImage.create(id: 38, image: open("#{Rails.root}/db/fixtures/m90314762525_5.jpg"), product_id: 8)
-  ProductImage.create(id: 39, image: open("#{Rails.root}/db/fixtures/m90314762525_6.jpg"), product_id: 8)
-  ProductImage.create(id: 40, image: open("#{Rails.root}/db/fixtures/m83639175163_1.jpg"), product_id: 9)
-  ProductImage.create(id: 41, image: open("#{Rails.root}/db/fixtures/m83639175163_2.jpg"), product_id: 9)
-  ProductImage.create(id: 42, image: open("#{Rails.root}/db/fixtures/m84250536699_1.jpg"), product_id: 10)
-  ProductImage.create(id: 43, image: open("#{Rails.root}/db/fixtures/m84250536699_2.jpg"), product_id: 10)
-  ProductImage.create(id: 44, image: open("#{Rails.root}/db/fixtures/m84250536699_3.jpg"), product_id: 10)
-  ProductImage.create(id: 45, image: open("#{Rails.root}/db/fixtures/m84250536699_4.jpg"), product_id: 10)
-  ProductImage.create(id: 46, image: open("#{Rails.root}/db/fixtures/m84250536699_5.jpg"), product_id: 10)
-  ProductImage.create(id: 47, image: open("#{Rails.root}/db/fixtures/m84250536699_6.jpg"), product_id: 10)
-  ProductImage.create(id: 48, image: open("#{Rails.root}/db/fixtures/m84250536699_7.jpg"), product_id: 10)
-  ProductImage.create(id: 49, image: open("#{Rails.root}/db/fixtures/m84250536699_8.jpg"), product_id: 10)
-  ProductImage.create(id: 50, image: open("#{Rails.root}/db/fixtures/m84250536699_9.jpg"), product_id: 10)
-  ProductImage.create(id: 51, image: open("#{Rails.root}/db/fixtures/m56741072879_1.jpg"), product_id: 11)
-  ProductImage.create(id: 52, image: open("#{Rails.root}/db/fixtures/m56741072879_2.jpg"), product_id: 11)
-  ProductImage.create(id: 53, image: open("#{Rails.root}/db/fixtures/m56741072879_3.jpg"), product_id: 11)
-  ProductImage.create(id: 54, image: open("#{Rails.root}/db/fixtures/m74341544093_1.jpg"), product_id: 12)
-  ProductImage.create(id: 55, image: open("#{Rails.root}/db/fixtures/m74341544093_2.jpg"), product_id: 12)
-  ProductImage.create(id: 56, image: open("#{Rails.root}/db/fixtures/m96779532804_1.jpg"), product_id: 13)
-  ProductImage.create(id: 57, image: open("#{Rails.root}/db/fixtures/m96779532804_2.jpg"), product_id: 13)
-  ProductImage.create(id: 58, image: open("#{Rails.root}/db/fixtures/m96779532804_3.jpg"), product_id: 13)
-  ProductImage.create(id: 59, image: open("#{Rails.root}/db/fixtures/m22546401495_1.jpg"), product_id: 14)
-  ProductImage.create(id: 60, image: open("#{Rails.root}/db/fixtures/m22546401495_2.jpg"), product_id: 14)
-  ProductImage.create(id: 61, image: open("#{Rails.root}/db/fixtures/m22546401495_3.jpg"), product_id: 14)
-  ProductImage.create(id: 62, image: open("#{Rails.root}/db/fixtures/m18941694191_1.jpg"), product_id: 15)
-  ProductImage.create(id: 63, image: open("#{Rails.root}/db/fixtures/m18941694191_2.jpg"), product_id: 15)
-  ProductImage.create(id: 64, image: open("#{Rails.root}/db/fixtures/m18941694191_3.jpg"), product_id: 15)
-  ProductImage.create(id: 65, image: open("#{Rails.root}/db/fixtures/m18941694191_4.jpg"), product_id: 15)
-  ProductImage.create(id: 66, image: open("#{Rails.root}/db/fixtures/m18941694191_5.jpg"), product_id: 15)
-  ProductImage.create(id: 67, image: open("#{Rails.root}/db/fixtures/m18941694191_6.jpg"), product_id: 15)
-  ProductImage.create(id: 68, image: open("#{Rails.root}/db/fixtures/m18941694191_7.jpg"), product_id: 15)
-  ProductImage.create(id: 69, image: open("#{Rails.root}/db/fixtures/m18941694191_8.jpg"), product_id: 15)
-  ProductImage.create(id: 70, image: open("#{Rails.root}/db/fixtures/m93198988449_1.jpg"), product_id: 16)
-  ProductImage.create(id: 71, image: open("#{Rails.root}/db/fixtures/m93198988449_2.jpg"), product_id: 16)
-  ProductImage.create(id: 72, image: open("#{Rails.root}/db/fixtures/m93198988449_3.jpg"), product_id: 16)
-  ProductImage.create(id: 73, image: open("#{Rails.root}/db/fixtures/m93198988449_4.jpg"), product_id: 16)
-  ProductImage.create(id: 74, image: open("#{Rails.root}/db/fixtures/m93198988449_5.jpg"), product_id: 16)
-  ProductImage.create(id: 75, image: open("#{Rails.root}/db/fixtures/m95495346146_1.jpg"), product_id: 17)
-  ProductImage.create(id: 76, image: open("#{Rails.root}/db/fixtures/m95495346146_2.jpg"), product_id: 17)
-  ProductImage.create(id: 77, image: open("#{Rails.root}/db/fixtures/m95495346146_3.jpg"), product_id: 17)
-  ProductImage.create(id: 78, image: open("#{Rails.root}/db/fixtures/m95495346146_4.jpg"), product_id: 17)
-  ProductImage.create(id: 79, image: open("#{Rails.root}/db/fixtures/m36257984183_1.jpg"), product_id: 18)
-  ProductImage.create(id: 80, image: open("#{Rails.root}/db/fixtures/m36257984183_2.jpg"), product_id: 18)
-  ProductImage.create(id: 81, image: open("#{Rails.root}/db/fixtures/m46826258005_1.jpg"), product_id: 19)
-  ProductImage.create(id: 82, image: open("#{Rails.root}/db/fixtures/m46826258005_2.jpg"), product_id: 19)
-  ProductImage.create(id: 83, image: open("#{Rails.root}/db/fixtures/m15719362871_1.jpg"), product_id: 20)
-  ProductImage.create(id: 84, image: open("#{Rails.root}/db/fixtures/m15719362871_2.jpg"), product_id: 20)
-  ProductImage.create(id: 85, image: open("#{Rails.root}/db/fixtures/m26997643019_1.jpg"), product_id: 21)
-  ProductImage.create(id: 86, image: open("#{Rails.root}/db/fixtures/m26997643019_2.jpg"), product_id: 21)
-  ProductImage.create(id: 87, image: open("#{Rails.root}/db/fixtures/m26997643019_3.jpg"), product_id: 21)
-  ProductImage.create(id: 88, image: open("#{Rails.root}/db/fixtures/m78959995570_1.jpg"), product_id: 22)
-  ProductImage.create(id: 89, image: open("#{Rails.root}/db/fixtures/m40973161719_1.jpg"), product_id: 23)
-  ProductImage.create(id: 90, image: open("#{Rails.root}/db/fixtures/m40973161719_2.jpg"), product_id: 23)
-  ProductImage.create(id: 91, image: open("#{Rails.root}/db/fixtures/m89848119985_1.jpg"), product_id: 24)
-  ProductImage.create(id: 92, image: open("#{Rails.root}/db/fixtures/m89848119985_2.jpg"), product_id: 24)
-  ProductImage.create(id: 93, image: open("#{Rails.root}/db/fixtures/m40729627971_1.jpg"), product_id: 25)
-  ProductImage.create(id: 94, image: open("#{Rails.root}/db/fixtures/m40729627971_2.jpg"), product_id: 25)
-  ProductImage.create(id: 95, image: open("#{Rails.root}/db/fixtures/m40729627971_3.jpg"), product_id: 25)
-  ProductImage.create(id: 96, image: open("#{Rails.root}/db/fixtures/m40729627971_4.jpg"), product_id: 25)
-  ProductImage.create(id: 97, image: open("#{Rails.root}/db/fixtures/m40729627971_5.jpg"), product_id: 25)
-  ProductImage.create(id: 98, image: open("#{Rails.root}/db/fixtures/m64603446576_1.jpg"), product_id: 26)
-  ProductImage.create(id: 99, image: open("#{Rails.root}/db/fixtures/m62174012776_1.jpg"), product_id: 27)
-  ProductImage.create(id: 100, image: open("#{Rails.root}/db/fixtures/m62174012776_2.jpg"), product_id: 27)
-  ProductImage.create(id: 101, image: open("#{Rails.root}/db/fixtures/m62174012776_3.jpg"), product_id: 27)
-  ProductImage.create(id: 102, image: open("#{Rails.root}/db/fixtures/m11461086645_1.jpg"), product_id: 28)
-  ProductImage.create(id: 103, image: open("#{Rails.root}/db/fixtures/m11461086645_2.jpg"), product_id: 28)
-  ProductImage.create(id: 104, image: open("#{Rails.root}/db/fixtures/m11461086645_3.jpg"), product_id: 28)
-  ProductImage.create(id: 105, image: open("#{Rails.root}/db/fixtures/m11461086645_4.jpg"), product_id: 28)
-  ProductImage.create(id: 106, image: open("#{Rails.root}/db/fixtures/m11461086645_5.jpg"), product_id: 28)
-  ProductImage.create(id: 107, image: open("#{Rails.root}/db/fixtures/m11461086645_6.jpg"), product_id: 28)
-  ProductImage.create(id: 108, image: open("#{Rails.root}/db/fixtures/m11461086645_7.jpg"), product_id: 28)
-  ProductImage.create(id: 109, image: open("#{Rails.root}/db/fixtures/m54329034086_1.jpg"), product_id: 29)
-  ProductImage.create(id: 110, image: open("#{Rails.root}/db/fixtures/m54329034086_2.jpg"), product_id: 29)
-  ProductImage.create(id: 111, image: open("#{Rails.root}/db/fixtures/m54329034086_3.jpg"), product_id: 29)
-  ProductImage.create(id: 112, image: open("#{Rails.root}/db/fixtures/m54329034086_4.jpg"), product_id: 29)
-  ProductImage.create(id: 113, image: open("#{Rails.root}/db/fixtures/m54329034086_5.jpg"), product_id: 29)
-  ProductImage.create(id: 114, image: open("#{Rails.root}/db/fixtures/m54329034086_6.jpg"), product_id: 29)
-  ProductImage.create(id: 115, image: open("#{Rails.root}/db/fixtures/m21134849957_1.jpg"), product_id: 30)
-  ProductImage.create(id: 116, image: open("#{Rails.root}/db/fixtures/m21134849957_2.jpg"), product_id: 30)
-  ProductImage.create(id: 117, image: open("#{Rails.root}/db/fixtures/m27845176701_1.jpg"), product_id: 31)
-  ProductImage.create(id: 118, image: open("#{Rails.root}/db/fixtures/m27845176701_2.jpg"), product_id: 31)
-  ProductImage.create(id: 119, image: open("#{Rails.root}/db/fixtures/m27845176701_3.jpg"), product_id: 31)
-  ProductImage.create(id: 120, image: open("#{Rails.root}/db/fixtures/m27845176701_4.jpg"), product_id: 31)
-  ProductImage.create(id: 121, image: open("#{Rails.root}/db/fixtures/m54603695384_1.jpg"), product_id: 32)
-  ProductImage.create(id: 122, image: open("#{Rails.root}/db/fixtures/m54603695384_2.jpg"), product_id: 32)
-  ProductImage.create(id: 123, image: open("#{Rails.root}/db/fixtures/m54603695384_3.jpg"), product_id: 32)
-  ProductImage.create(id: 124, image: open("#{Rails.root}/db/fixtures/m54603695384_4.jpg"), product_id: 32)
-  ProductImage.create(id: 125, image: open("#{Rails.root}/db/fixtures/m96211228387_1.jpg"), product_id: 33)
-  ProductImage.create(id: 126, image: open("#{Rails.root}/db/fixtures/m96211228387_2.jpg"), product_id: 33)
-  ProductImage.create(id: 127, image: open("#{Rails.root}/db/fixtures/m96211228387_3.jpg"), product_id: 33)
-  ProductImage.create(id: 128, image: open("#{Rails.root}/db/fixtures/m96211228387_4.jpg"), product_id: 33)
-  ProductImage.create(id: 129, image: open("#{Rails.root}/db/fixtures/m80781902854_1.jpg"), product_id: 34)
-  ProductImage.create(id: 130, image: open("#{Rails.root}/db/fixtures/m80781902854_2.jpg"), product_id: 34)
-  ProductImage.create(id: 131, image: open("#{Rails.root}/db/fixtures/m80781902854_3.jpg"), product_id: 34)
-  ProductImage.create(id: 132, image: open("#{Rails.root}/db/fixtures/m30061122149_1.jpg"), product_id: 35)
-  ProductImage.create(id: 133, image: open("#{Rails.root}/db/fixtures/m30061122149_2.jpg"), product_id: 35)
-  ProductImage.create(id: 134, image: open("#{Rails.root}/db/fixtures/m30061122149_3.jpg"), product_id: 35)
-  ProductImage.create(id: 135, image: open("#{Rails.root}/db/fixtures/m30061122149_4.jpg"), product_id: 35)
-  ProductImage.create(id: 136, image: open("#{Rails.root}/db/fixtures/m30061122149_5.jpg"), product_id: 35)
-  ProductImage.create(id: 137, image: open("#{Rails.root}/db/fixtures/m44094931510_1.jpg"), product_id: 36)
-  ProductImage.create(id: 138, image: open("#{Rails.root}/db/fixtures/m44094931510_2.jpg"), product_id: 36)
-  ProductImage.create(id: 139, image: open("#{Rails.root}/db/fixtures/m44094931510_3.jpg"), product_id: 36)
-  ProductImage.create(id: 140, image: open("#{Rails.root}/db/fixtures/m44094931510_4.jpg"), product_id: 36)
-  ProductImage.create(id: 141, image: open("#{Rails.root}/db/fixtures/m44094931510_5.jpg"), product_id: 36)
-  ProductImage.create(id: 142, image: open("#{Rails.root}/db/fixtures/m44094931510_6.jpg"), product_id: 36)
-  ProductImage.create(id: 143, image: open("#{Rails.root}/db/fixtures/m53336070655_1.jpg"), product_id: 37)
-  ProductImage.create(id: 144, image: open("#{Rails.root}/db/fixtures/m53336070655_2.jpg"), product_id: 37)
-  ProductImage.create(id: 145, image: open("#{Rails.root}/db/fixtures/m53336070655_3.jpg"), product_id: 37)
-  ProductImage.create(id: 146, image: open("#{Rails.root}/db/fixtures/m53336070655_4.jpg"), product_id: 37)
-  ProductImage.create(id: 147, image: open("#{Rails.root}/db/fixtures/m53336070655_5.jpg"), product_id: 37)
-  ProductImage.create(id: 148, image: open("#{Rails.root}/db/fixtures/m73179952709_1.jpg"), product_id: 38)
-  ProductImage.create(id: 149, image: open("#{Rails.root}/db/fixtures/m73179952709_2.jpg"), product_id: 38)
-  ProductImage.create(id: 150, image: open("#{Rails.root}/db/fixtures/m73179952709_3.jpg"), product_id: 38)
-  ProductImage.create(id: 151, image: open("#{Rails.root}/db/fixtures/m73179952709_4.jpg"), product_id: 38)
-  ProductImage.create(id: 152, image: open("#{Rails.root}/db/fixtures/m73179952709_5.jpg"), product_id: 38)
-  ProductImage.create(id: 153, image: open("#{Rails.root}/db/fixtures/m44538810302_1.jpg"), product_id: 39)
-  ProductImage.create(id: 154, image: open("#{Rails.root}/db/fixtures/m44538810302_2.jpg"), product_id: 39)
-  ProductImage.create(id: 155, image: open("#{Rails.root}/db/fixtures/m44538810302_3.jpg"), product_id: 39)
-  ProductImage.create(id: 156, image: open("#{Rails.root}/db/fixtures/m44538810302_4.jpg"), product_id: 39)
-  ProductImage.create(id: 157, image: open("#{Rails.root}/db/fixtures/m44538810302_5.jpg"), product_id: 39)
-  ProductImage.create(id: 158, image: open("#{Rails.root}/db/fixtures/m72089499277_1.jpg"), product_id: 40)
-  ProductImage.create(id: 159, image: open("#{Rails.root}/db/fixtures/m72089499277_2.jpg"), product_id: 40)
-  ProductImage.create(id: 160, image: open("#{Rails.root}/db/fixtures/m72089499277_3.jpg"), product_id: 40)
-  ProductImage.create(id: 161, image: open("#{Rails.root}/db/fixtures/m72089499277_4.jpg"), product_id: 40)
-  ProductImage.create(id: 162, image: open("#{Rails.root}/db/fixtures/m96412135297_1.jpg"), product_id: 41)
-  ProductImage.create(id: 163, image: open("#{Rails.root}/db/fixtures/m96412135297_2.jpg"), product_id: 41)
-  ProductImage.create(id: 164, image: open("#{Rails.root}/db/fixtures/m96412135297_3.jpg"), product_id: 41)
-  ProductImage.create(id: 165, image: open("#{Rails.root}/db/fixtures/m88951599020_1.jpg"), product_id: 42)
-  ProductImage.create(id: 166, image: open("#{Rails.root}/db/fixtures/m88951599020_2.jpg"), product_id: 42)
-  ProductImage.create(id: 167, image: open("#{Rails.root}/db/fixtures/m49193247029_1.jpg"), product_id: 43)
-  ProductImage.create(id: 168, image: open("#{Rails.root}/db/fixtures/m49193247029_2.jpg"), product_id: 43)
-  ProductImage.create(id: 169, image: open("#{Rails.root}/db/fixtures/m49193247029_3.jpg"), product_id: 43)
-  ProductImage.create(id: 170, image: open("#{Rails.root}/db/fixtures/m21197053232_1.jpg"), product_id: 44)
-  ProductImage.create(id: 171, image: open("#{Rails.root}/db/fixtures/m21197053232_2.jpg"), product_id: 44)
-  ProductImage.create(id: 172, image: open("#{Rails.root}/db/fixtures/m21197053232_3.jpg"), product_id: 44)
-  ProductImage.create(id: 173, image: open("#{Rails.root}/db/fixtures/m21197053232_4.jpg"), product_id: 44)
-  ProductImage.create(id: 174, image: open("#{Rails.root}/db/fixtures/m21197053232_5.jpg"), product_id: 44)
-  ProductImage.create(id: 175, image: open("#{Rails.root}/db/fixtures/m21197053232_6.jpg"), product_id: 44)
-  ProductImage.create(id: 176, image: open("#{Rails.root}/db/fixtures/m21197053232_7.jpg"), product_id: 44)
-  ProductImage.create(id: 177, image: open("#{Rails.root}/db/fixtures/m67438409679_1.jpg"), product_id: 45)
-  ProductImage.create(id: 178, image: open("#{Rails.root}/db/fixtures/m67438409679_2.jpg"), product_id: 45)
-  ProductImage.create(id: 179, image: open("#{Rails.root}/db/fixtures/m70474311122_1.jpg"), product_id: 46)
-  ProductImage.create(id: 180, image: open("#{Rails.root}/db/fixtures/m70474311122_2.jpg"), product_id: 46)
-  ProductImage.create(id: 181, image: open("#{Rails.root}/db/fixtures/m70474311122_3.jpg"), product_id: 46)
-  ProductImage.create(id: 182, image: open("#{Rails.root}/db/fixtures/m70474311122_4.jpg"), product_id: 46)
-  ProductImage.create(id: 183, image: open("#{Rails.root}/db/fixtures/m35270026622_1.jpg"), product_id: 47)
-  ProductImage.create(id: 184, image: open("#{Rails.root}/db/fixtures/m35270026622_2.jpg"), product_id: 47)
-  ProductImage.create(id: 185, image: open("#{Rails.root}/db/fixtures/m35270026622_3.jpg"), product_id: 47)
-  ProductImage.create(id: 186, image: open("#{Rails.root}/db/fixtures/m35270026622_4.jpg"), product_id: 47)
-  ProductImage.create(id: 187, image: open("#{Rails.root}/db/fixtures/m10618931963_1.jpg"), product_id: 48)
-  ProductImage.create(id: 188, image: open("#{Rails.root}/db/fixtures/m10618931963_2.jpg"), product_id: 48)
-  ProductImage.create(id: 189, image: open("#{Rails.root}/db/fixtures/m10618931963_3.jpg"), product_id: 48)
-  ProductImage.create(id: 190, image: open("#{Rails.root}/db/fixtures/m80691617324_1.jpg"), product_id: 49)
-  ProductImage.create(id: 191, image: open("#{Rails.root}/db/fixtures/m80691617324_2.jpg"), product_id: 49)
-  ProductImage.create(id: 192, image: open("#{Rails.root}/db/fixtures/m80691617324_3.jpg"), product_id: 49)
-  ProductImage.create(id: 193, image: open("#{Rails.root}/db/fixtures/m80691617324_4.jpg"), product_id: 49)
-  ProductImage.create(id: 194, image: open("#{Rails.root}/db/fixtures/m80691617324_5.jpg"), product_id: 49)
-  ProductImage.create(id: 195, image: open("#{Rails.root}/db/fixtures/m24255548152_1.jpg"), product_id: 50)
-  ProductImage.create(id: 196, image: open("#{Rails.root}/db/fixtures/m24255548152_2.jpg"), product_id: 50)
-  ProductImage.create(id: 197, image: open("#{Rails.root}/db/fixtures/m24255548152_3.jpg"), product_id: 50)
-  ProductImage.create(id: 198, image: open("#{Rails.root}/db/fixtures/m24255548152_4.jpg"), product_id: 50)
-  ProductImage.create(id: 199, image: open("#{Rails.root}/db/fixtures/m61709744138_1.jpg"), product_id: 51)
-  ProductImage.create(id: 200, image: open("#{Rails.root}/db/fixtures/m61709744138_2.jpg"), product_id: 51)
-  ProductImage.create(id: 201, image: open("#{Rails.root}/db/fixtures/m61709744138_3.jpg"), product_id: 51)
